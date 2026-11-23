@@ -1,5 +1,7 @@
 # repo-radar
 
+**English** | [简体中文](README.zh-CN.md)
+
 **Point it at any codebase and get a 0-100 health score, the risk findings that matter, churn hotspots and a self-contained HTML dashboard — in one command, offline, with zero dependencies.**
 
 ![python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776ab?style=flat-square)
