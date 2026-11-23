@@ -1,0 +1,7 @@
+{
+  "name": "pulse-web",
+  "private": true,
+  "dependencies": { "preact": "^10.19.0" },
+  "devDependencies": { "vitest": "^1.2.0" },
+  "scripts": { "dev": "vite", "test": "vitest run" }
+}

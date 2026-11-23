@@ -1,0 +1,8 @@
+[project]
+name = "pulse-api"
+version = "0.7.2"
+requires-python = ">=3.10"
+dependencies = ["fastapi>=0.110", "uvicorn>=0.29", "pydantic==2.6.3", "httpx>=0.27"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

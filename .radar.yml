@@ -1,0 +1,6 @@
+# repo-radar's own configuration.
+# The demo fixture ships its own git history, so it is excluded from self-scans.
+ignore:
+  - examples/demo-repo
+fail_under: 60
+top: 10

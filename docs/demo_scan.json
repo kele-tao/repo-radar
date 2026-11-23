@@ -1,0 +1,312 @@
+﻿{
+  "root": "D:\\\u4ee3\u7801\\GitHub\u4ee3\u7801\\repo-radar\\examples\\demo-repo",
+  "root_display": "examples/demo-repo",
+  "score": 89.4,
+  "grade": "B",
+  "sub_scores": {
+    "risk": 94.8,
+    "tests": 100.0,
+    "docs": 90.0,
+    "dependencies": 78.0,
+    "hygiene": 86.2,
+    "history": 71.5
+  },
+  "totals": {
+    "files": 22,
+    "bytes": 8322,
+    "bytes_human": "8.1 KB",
+    "code_lines": 171,
+    "comment_lines": 78,
+    "blank_lines": 149,
+    "file_lines": 398,
+    "comment_ratio": 31.3
+  },
+  "languages": [
+    {
+      "language": "Python",
+      "category": "code",
+      "files": 9,
+      "code": 93,
+      "comments": 78,
+      "blank": 113,
+      "bytes": 6237
+    },
+    {
+      "language": "Markdown",
+      "category": "docs",
+      "files": 2,
+      "code": 25,
+      "comments": 0,
+      "blank": 16,
+      "bytes": 891
+    },
+    {
+      "language": "YAML",
+      "category": "data",
+      "files": 1,
+      "code": 9,
+      "comments": 0,
+      "blank": 0,
+      "bytes": 168
+    },
+    {
+      "language": "JavaScript",
+      "category": "code",
+      "files": 2,
+      "code": 8,
+      "comments": 0,
+      "blank": 11,
+      "bytes": 245
+    },
+    {
+      "language": "Other",
+      "category": "other",
+      "files": 3,
+      "code": 8,
+      "comments": 0,
+      "blank": 2,
+      "bytes": 131
+    },
+    {
+      "language": "JSON",
+      "category": "data",
+      "files": 1,
+      "code": 7,
+      "comments": 0,
+      "blank": 0,
+      "bytes": 195
+    },
+    {
+      "language": "TOML",
+      "category": "data",
+      "files": 1,
+      "code": 7,
+      "comments": 0,
+      "blank": 1,
+      "bytes": 216
+    },
+    {
+      "language": "Dockerfile",
+      "category": "config",
+      "files": 1,
+      "code": 5,
+      "comments": 0,
+      "blank": 0,
+      "bytes": 103
+    },
+    {
+      "language": "Go",
+      "category": "code",
+      "files": 1,
+      "code": 5,
+      "comments": 0,
+      "blank": 5,
+      "bytes": 91
+    },
+    {
+      "language": "Makefile",
+      "category": "config",
+      "files": 1,
+      "code": 4,
+      "comments": 0,
+      "blank": 1,
+      "bytes": 45
+    }
+  ],
+  "ecosystem": {
+    "ecosystems": [
+      "Go",
+      "Node",
+      "Python (pyproject)"
+    ],
+    "entry_points": [
+      {
+        "path": "cmd/agent/main.go",
+        "kind": "go main package"
+      },
+      {
+        "path": "Makefile",
+        "kind": "make targets"
+      },
+      {
+        "path": "Dockerfile",
+        "kind": "container build"
+      }
+    ],
+    "test_frameworks": [
+      "pytest",
+      "vitest"
+    ],
+    "ci_systems": [
+      "GitHub Actions"
+    ],
+    "manifests": [
+      "pyproject.toml",
+      "web/package.json",
+      "cmd/agent/go.mod"
+    ],
+    "has_docker": true,
+    "has_lockfile": false,
+    "has_readme": true,
+    "has_license": true,
+    "has_tests_dir": true,
+    "has_ci": true,
+    "has_pre_commit": false,
+    "dependencies": 5,
+    "pinned_dependencies": 4,
+    "pin_ratio": 80.0
+  },
+  "graph": {
+    "files_parsed": 12,
+    "parse_failures": 0,
+    "modules_in_graph": 7,
+    "internal_edges": 5,
+    "external_packages": [
+      "__future__",
+      "collections",
+      "csv",
+      "json",
+      "pytest",
+      "sys"
+    ]
+  },
+  "cycles": [],
+  "dead_files": [
+    "src/pulse/legacy_exporter.py",
+    "src/pulse/report.py"
+  ],
+  "git": {
+    "available": true,
+    "reason": "",
+    "commits": 92,
+    "authors": [
+      {
+        "name": "Mira Chen",
+        "commits": 17
+      },
+      {
+        "name": "Aiko Tanaka",
+        "commits": 15
+      },
+      {
+        "name": "Jonas Weber",
+        "commits": 15
+      },
+      {
+        "name": "Priya Raman",
+        "commits": 15
+      },
+      {
+        "name": "Sam Okafor",
+        "commits": 15
+      },
+      {
+        "name": "Tomas Oliveira",
+        "commits": 15
+      }
+    ],
+    "branch": "main",
+    "first_commit": "2024-01-05",
+    "last_commit": "2024-09-10",
+    "days_span": 249,
+    "uncommitted_changes": 0,
+    "top_churn": [
+      {
+        "file": "src/pulse/pricing.py",
+        "commits": 23,
+        "loc": 18,
+        "score": 32.76
+      },
+      {
+        "file": "src/pulse/app.py",
+        "commits": 15,
+        "loc": 10,
+        "score": 19.74
+      },
+      {
+        "file": "src/pulse/store.py",
+        "commits": 10,
+        "loc": 8,
+        "score": 12.83
+      },
+      {
+        "file": "README.md",
+        "commits": 9,
+        "loc": 18,
+        "score": 12.82
+      },
+      {
+        "file": "src/pulse/report.py",
+        "commits": 8,
+        "loc": 14,
+        "score": 10.99
+      },
+      {
+        "file": "tests/test_pricing.py",
+        "commits": 8,
+        "loc": 10,
+        "score": 10.53
+      },
+      {
+        "file": "web/src/app.js",
+        "commits": 7,
+        "loc": 5,
+        "score": 8.57
+      },
+      {
+        "file": "tests/test_store.py",
+        "commits": 5,
+        "loc": 10,
+        "score": 6.58
+      },
+      {
+        "file": "web/src/cart.js",
+        "commits": 5,
+        "loc": 3,
+        "score": 5.87
+      },
+      {
+        "file": "docs/architecture.md",
+        "commits": 4,
+        "loc": 7,
+        "score": 5.06
+      }
+    ]
+  },
+  "findings": [
+    {
+      "rule": "RR012",
+      "severity": "medium",
+      "title": "File is never imported",
+      "detail": "no module imports this file",
+      "file": "src/pulse/legacy_exporter.py",
+      "line": null,
+      "fix": "Wire it up, turn it into a documented entry point, or delete it."
+    },
+    {
+      "rule": "RR012",
+      "severity": "medium",
+      "title": "File is never imported",
+      "detail": "no module imports this file",
+      "file": "src/pulse/report.py",
+      "line": null,
+      "fix": "Wire it up, turn it into a documented entry point, or delete it."
+    }
+  ],
+  "finding_totals": {
+    "high": 0,
+    "medium": 2,
+    "low": 0,
+    "info": 0
+  },
+  "duration_ms": 1207.4,
+  "config": {
+    "ignore": [],
+    "fail_under": null,
+    "top": 10,
+    "sources": [
+      "cli"
+    ],
+    "warnings": []
+  }
+}

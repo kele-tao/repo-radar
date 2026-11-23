@@ -1,0 +1,42 @@
+{
+  "rows": [
+    {
+      "files": 549,
+      "code_lines": 5750,
+      "median_ms": 312.0,
+      "best_ms": 270.5,
+      "score": 70.8,
+      "findings": 1,
+      "requested_files": 500
+    },
+    {
+      "files": 2049,
+      "code_lines": 22850,
+      "median_ms": 1997.8,
+      "best_ms": 1843.4,
+      "score": 69.7,
+      "findings": 1,
+      "requested_files": 2000
+    },
+    {
+      "files": 5049,
+      "code_lines": 57050,
+      "median_ms": 4223.6,
+      "best_ms": 3869.5,
+      "score": 69.6,
+      "findings": 1,
+      "requested_files": 5000
+    }
+  ],
+  "corpus": {
+    "files": 76,
+    "code_lines": 300001,
+    "median_ms": 1057.3,
+    "best_ms": 1037.7,
+    "score": 16.5,
+    "findings": 227,
+    "mb": 5.01
+  },
+  "python": "3.12.10",
+  "platform": "Windows"
+}
