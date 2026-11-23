@@ -41,6 +41,7 @@ where = ["src"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-ra"
+pythonpath = ["."]
 filterwarnings = ["error::DeprecationWarning:repo_radar.*"]
 
 [tool.ruff]
